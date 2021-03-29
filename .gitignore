@@ -1,0 +1,4 @@
+/.vscode
+/.scrapy
+/tutorial/__pycache__
+/tutorial/__pycache__/*.pyc
