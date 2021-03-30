@@ -28,13 +28,13 @@ SPIDER_MIDDLEWARES = {
 
 SPLASH_COOKIES_DEBUG = True
 
-HTTPCACHE_ENABLED = True
-HTTPCACHE_EXPIRATION_SECS = 0
-HTTPCACHE_DIR = 'httpcache'
+# HTTPCACHE_ENABLED = True
+# HTTPCACHE_EXPIRATION_SECS = 0
+# HTTPCACHE_DIR = 'httpcache'
 
-DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+# DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 
-HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+# HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
