@@ -29,3 +29,26 @@ class FitTypeItem(scrapy.Item):
     name = scrapy.Field()
     value = scrapy.Field()
     type = scrapy.Field()
+
+
+class KeepSelectorItem(scrapy.Item):
+    id = scrapy.Field()
+    name = scrapy.Field()
+    value = scrapy.Field()
+
+
+class KeepSelectorOptionsItem(scrapy.Item):
+    id = scrapy.Field()
+    parent_id = scrapy.Field()
+    name = scrapy.Field()
+    value = scrapy.Field()
+
+
+class KeepSortItem(scrapy.Item):
+    id = scrapy.Field()
+    name = scrapy.Field()
+    value = scrapy.Field()
+
+
+class KeepItem(scrapy.Item):
+    pass

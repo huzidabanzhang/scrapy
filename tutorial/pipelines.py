@@ -23,3 +23,27 @@ class FitTypePipeline:
     def process_item(self, item, spider):
         # print(item)
         return item
+
+
+class KeepSelectorPipeline:
+    def process_item(self, item, spider):
+        # print(item)
+        return item
+
+
+class KeepSelectorOptionsPipeline:
+    def process_item(self, item, spider):
+        # print(item)
+        return item
+
+
+class KeepSortPipeline:
+    def process_item(self, item, spider):
+        # print(item)
+        return item
+
+
+class KeepPipeline:
+    def process_item(self, item, spider):
+        # print(item)
+        return item

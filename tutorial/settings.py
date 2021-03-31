@@ -88,7 +88,11 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'tutorial.pipelines.FitPipeline': 300,
-    'tutorial.pipelines.FitTypePipeline': 300
+    'tutorial.pipelines.FitTypePipeline': 300,
+    'tutorial.pipelines.KeepSelectorPipeline': 300,
+    'tutorial.pipelines.KeepSelectorOptionsPipeline': 300,
+    'tutorial.pipelines.KeepSortPipeline': 300,
+    'tutorial.pipelines.KeepPipeline': 300
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
